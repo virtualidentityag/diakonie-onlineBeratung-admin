@@ -25,6 +25,7 @@ function buildAgencyDataRequestBody(consultingTypeResponseId: string | number, f
         counsellingRelations: formData.counsellingRelations,
         dataProtection: formData.dataProtection,
         tenantId: formData.tenantId,
+        agencyLogo: formData.agencyLogo,
     });
 }
 
