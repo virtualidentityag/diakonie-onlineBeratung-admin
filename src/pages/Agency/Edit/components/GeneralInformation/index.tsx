@@ -14,6 +14,7 @@ export const AgencyGeneralInformation = () => {
                 labelKey="agency.edit.general.general_information.name"
                 placeholderKey="agency.edit.general.general_information.name"
                 required
+                maxLength={100}
             />
 
             <Row gutter={[20, 10]}>
@@ -33,6 +34,7 @@ export const AgencyGeneralInformation = () => {
                         labelKey="agency.edit.general.address.city"
                         placeholderKey="agency.edit.general.address.city"
                         required
+                        maxLength={100}
                     />
                 </Col>
                 <Col xs={12}>
